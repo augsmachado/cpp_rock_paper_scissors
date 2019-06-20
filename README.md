@@ -1,6 +1,6 @@
 # Rock-paper-scissors
 From [Wikipedia](https://en.wikipedia.org/wiki/Rock%E2%80%93paper%E2%80%93scissors):
-> <br>A simultaneous, zero-sum game, it has only two possible outcomes: a draw, or a win for one player and a loss for the other.
+> A simultaneous, zero-sum game, it has only two possible outcomes: a draw, or a win for one player and a loss for the other.
 
 ### Business rules
 
