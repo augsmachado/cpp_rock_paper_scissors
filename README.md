@@ -1,4 +1,6 @@
 # Rock-paper-scissors
+From [Wikipedia](https://en.wikipedia.org/wiki/Rock%E2%80%93paper%E2%80%93scissors)
+
 ### Business rules
 
 Business rules are policies, conditions, or system constraints that must be considered in the execution of your processes. Business rules often influence the behavior of certain use cases.
