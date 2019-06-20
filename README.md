@@ -1,9 +1,13 @@
 # Rock-paper-scissors
-From [Wikipedia](https://en.wikipedia.org/wiki/Rock%E2%80%93paper%E2%80%93scissors)
+From [Wikipedia](https://en.wikipedia.org/wiki/Rock%E2%80%93paper%E2%80%93scissors):
+> <br>A simultaneous, zero-sum game, it has only two possible outcomes: a draw, or a win for one player and a loss for the other.
 
 ### Business rules
 
 Business rules are policies, conditions, or system constraints that must be considered in the execution of your processes. Business rules often influence the behavior of certain use cases.
+<br>From [Wikipedia](https://en.wikipedia.org/wiki/Rock%E2%80%93paper%E2%80%93scissors):
+> + The players usually count aloud to three, or speak the name of the game, each time either raising one hand in a fist and swinging it down on the count or holding it behind. They then "throw" by extending it towards their opponent.
+> + A player who decides to play rock will beat another player who has chosen scissors ("rock crushes scissors" or sometimes "blunts scissors"), but will lose to one who has played paper ("paper covers rock"). A play of paper will lose to a play of scissors ("scissors cuts paper"). If both players choose the same shape, the game is tied and is usually immediately replayed to break the tie.
 
 ### Functional requirements
 
