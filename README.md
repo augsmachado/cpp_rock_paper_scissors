@@ -9,22 +9,19 @@ Business rules are policies, conditions, or system constraints that must be cons
 > + The players usually count aloud to three, or speak the name of the game, each time either raising one hand in a fist and swinging it down on the count or holding it behind. They then "throw" by extending it towards their opponent.
 > + A player who decides to play rock will beat another player who has chosen scissors ("rock crushes scissors" or sometimes "blunts scissors"), but will lose to one who has played paper ("paper covers rock"). A play of paper will lose to a play of scissors ("scissors cuts paper"). If both players choose the same shape, the game is tied and is usually immediately replayed to break the tie.
 
-### Functional requirements
+<br>Other business rules are:
++ The system needs to be random.
++ After three rounds, the system gives to show the winner.
++ Based on clock computer, the system generate a random number between one and one hundred. If the generated number is between one and thirty-three, the system will play **paper**. Than if the generated number is between thirty-four and sixty-six, the system will play with **rock**. But if generated number is between sixty-seven and one hundred, the system will play with **scissors**.
 
-Functional requirements mean: solicitation, desire or will. Therefore, functional requirement is the need that a software should meet, that is, to do. It is worth remembering that requirements are not functions, they are actions that a human user will perform.
-
-### Non-functional requirements
-
-Non-functional requirements express conditions that the software must meet or specific qualities that the software must possess. Instead of telling what the system will do, nonfunctional requirements place constraints on the system.
 
 ### Numbered description
 
 The narrative of what the system and the user performed is described through a series of numbered steps.
-
-### Use case diagram
-
-The use case diagram describes the proposed functionalities for a new system that will be designed, being an excellent tool for surveying the functional requirements of the system. Use cases are typically related to "actors" where an actor is a human or machine that interacts with the system to perform an activity. In turn, use cases are specifications of a set of actions performed by a system that contains an observable result. A use case is represented by an ellipse, with the use case name inside or below, so if there are system boundaries in the diagram, the use case must be inside.
-
-### Class diagram
-
-The class diagram is a very useful type of modeling for the development of systems, since it defines all the classes that the system needs to have and is the basis for the construction of communication, sequence and state diagrams. In programming, a class diagram is a representation of the structure and relations of the classes that serve as a model for objects.
+1. The user start the system.
+2. The system shows: "**Choose an option: 1- Paper, 2- Rock, 3- Scissors**".
+3. The user chooses the desired option.
+4. Based on clock computer, the system generate a random number between one and one hundred.
+5. If the user wins the round, increase a point for on your scoreboard. otherwise, increment a point for on the system board.
+6. Repeat for 2 more times.
+7. Shows the winner and the pontuation of the match.
