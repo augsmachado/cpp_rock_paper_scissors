@@ -12,14 +12,14 @@ Business rules are policies, conditions, or system constraints that must be cons
 <br>Other business rules are:
 + The system needs to be random.
 + After three rounds, the system gives to show the winner.
-+ Based on clock computer, the system generate a random number between one and one hundred. If the generated number is between one and thirty-three, the system will play **paper**. Than if the generated number is between thirty-four and sixty-six, the system will play with **rock**. But if generated number is between sixty-seven and one hundred, the system will play with **scissors**.
++ Based on clock computer, the system generate a random number between one and one hundred. If the generated number is between one and thirty-three, the system will play **rock**. Than if the generated number is between thirty-four and sixty-six, the system will play with **paper**. But if generated number is between sixty-seven and one hundred, the system will play with **scissors**.
 
 
 ### Numbered description
 
 The narrative of what the system and the user performed is described through a series of numbered steps.
 1. The user start the system.
-2. The system shows: "**Choose an option: 1- Paper, 2- Rock, 3- Scissors**".
+2. The system shows: "**Choose an option: 1- Rock, 2- Paper, 3- Scissors**".
 3. The user chooses the desired option.
 4. Based on clock computer, the system generate a random number between one and one hundred.
 5. If the user wins the round, increase a point for on your scoreboard. otherwise, increment a point for on the system board.
