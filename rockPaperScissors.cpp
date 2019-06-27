@@ -23,6 +23,7 @@ int main () {
 
 		/*
 		* Options to user:
+    	* 1 - Rock
     	* 2 - Paper
     	* 3 - Scissors
 		*/
