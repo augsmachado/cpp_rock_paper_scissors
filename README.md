@@ -22,6 +22,7 @@ The narrative of what the system and the user performed is described through a s
 2. The system shows: "**Choose an option: 1- Rock, 2- Paper, 3- Scissors**".
 3. The user chooses the desired option.
 4. Based on clock computer, the system generate a random number between one and one hundred.
-5. If the user wins the round, increase a point for on your scoreboard. otherwise, increment a point for on the system board.
+5. If the user wins the round, increase a point for on your scoreboard. Otherwise, increment a point for on the system board.
 6. Repeat for 2 more times.
 7. Shows the winner and the pontuation of the match.
+8. The system shows: "**Want to play again? Yes [y] or no [n]?**". If yes, repeat more once time, else show the final scores of matches.
