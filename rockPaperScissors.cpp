@@ -21,13 +21,23 @@ int main () {
         inputOptionUser(&optionUser);
         randomOptionSys(&optionSys);
 
+		/*
+		* Options to user:
+    	* 1 - Rock
+    	* 2 - Paper
+    	* 3 - Scissors
+		*/
+
+
         if (optionSys >= 1 && optionSys <= 33){  // Sys equal the rock
             
             if (optionUser == 2){
                 std::cout << "Rock loses for paper" << endl;
                 pointUser++;
 
-            } else if (optionSys == 3){
+            }
+			
+			if (optionUser == 3){
                 std::cout << "Rock wins scissors" << endl;
                 pointSys++;
             }
@@ -35,11 +45,13 @@ int main () {
             
         } else if (optionSys >= 34 && optionSys <= 66){ // Sys equal the paper
             
-            if (optionUser == 2){
+            if (optionUser == 3){
                 std::cout << "Paper loses for scissors" << endl;
                 pointUser++;
             
-            } else if (optionSys == 3){
+            }
+			
+			if (optionUser == 1){
                 std::cout << "Paper wins rock" << endl;
                 pointSys++;
             }
@@ -47,11 +59,13 @@ int main () {
             
         } else if (optionSys >= 67 && optionSys <= 100){  // Sys equal the scissors
             
-            if (optionUser == 2){
+            if (optionUser == 3){
                 std::cout << "Scissors loses for rock" << endl;
                 pointUser++;
             
-            } else if (optionSys == 3){
+            }
+			
+			if (optionUser == 3){
                 std::cout << "Scissors wins paper" << endl;
                 pointSys++;
             }
