@@ -1,3 +1,17 @@
+/*
+	Name: Rock, Paper or Scissors
+	Copyright: 2019 Augusto Machado Ramos
+	Author: Augusto Machado Ramos
+	Date: 06/16/2019 02:35 pm
+	Comment language: en
+	Description: 
+		The goal was to develop a simpe game of "Rock, paper or scissors
+            using a text user interface.
+		In addition to developing the notion of programming in general,
+			know the fundamentals of software programming, Software Engineering concepts,
+			in addition to developing basic knowledge in C++.
+*/
+
 # include <iostream>
 # include <cstdlib>
 # include <ctime>
@@ -14,7 +28,7 @@ int main () {
     int winner;
     int winUserMatch = 0, winSysMatch = 0;
     
-    std::cout << "Press y to start game" << endl;
+    std::cout << "Press y to start game" << std::endl;
     std::cin >> newMatch;
     
     while (newMatch == 'y') {
@@ -28,12 +42,12 @@ int main () {
             winUserMatch++;
         }
         
-        cout << "Want to play again? Yes [y] or no [n]?" << endl;
-        cin >> newMatch; 
+        std::cout << "Want to play again? Yes [y] or no [n]?" << std::endl;
+        std::cin >> newMatch; 
     }
     
     // Print the final scores of matches
-    cout << "System: " << winSysMatch <<" vs. You: " << winUserMatch << endl;
+    std::cout << "System: " << winSysMatch <<" vs. You: " << winUserMatch << std::endl;
     
     return 0;
 }
@@ -61,17 +75,17 @@ int match () {
             
             // If system equal the rock, lose to 2-paper, win 3 scissor
             if (optionUser == 2) {
-                std::cout << "Rock loses for paper" << endl;
-                std::cout << "You won" << endl;
+                std::cout << "Rock loses for paper" << std::endl;
+                std::cout << "You won" << std::endl;
                 pointUser++;
                 
             } else if (optionUser == 3) {
-                std::cout << "Rock wins scissors" << endl;
-                std::cout << "You lost" << endl;
+                std::cout << "Rock wins scissors" << std::endl;
+                std::cout << "You lost" << std::endl;
                 pointSys++;
                 
             } else {
-                std::cout << "Gave a tie" << endl;
+                std::cout << "Gave a tie" << std::endl;
             }
             
         // In this case, systemys equal the paper
@@ -79,17 +93,17 @@ int match () {
             
             // If system equal the paper, lose to 3-scissors, win 1-rock
             if (optionUser == 3) {
-                std::cout << "Paper loses for scissors" << endl;
-                std::cout << "You won" << endl;
+                std::cout << "Paper loses for scissors" << std::endl;
+                std::cout << "You won" << std::endl;
                 pointUser++;
                 
             } else if (optionUser == 1) {
-                std::cout << "Paper wins rock" << endl;
-                std::cout << "You lost" << endl;
+                std::cout << "Paper wins rock" << std::endl;
+                std::cout << "You lost" << std::endl;
                 pointSys++;
                 
             } else {
-                std::cout << "Gave a tie" << endl;
+                std::cout << "Gave a tie" << std::endl;
             }
             
         // In this case, systemys equal the scissors
@@ -97,17 +111,17 @@ int match () {
         
             // If system equal the scissors, lose to 1-rock, win 2-paper
             if (optionUser == 1) {
-                std::cout << "Scissors loses for rock" << endl;
-                std::cout << "You won" << endl;
+                std::cout << "Scissors loses for rock" << std::endl;
+                std::cout << "You won" << std::endl;
                 pointUser++;
                 
             } else if (optionUser == 2) {
-                std::cout << "Scissors wins paper" << endl;
-                std::cout << "You lost" << endl;
+                std::cout << "Scissors wins paper" << std::endl;
+                std::cout << "You lost" << std::endl;
                 pointSys++;
                 
             } else {
-                std::cout << "Gave a tie" << endl;
+                std::cout << "Gave a tie" << std::endl;
             }
         }
         round++;
