@@ -5,7 +5,7 @@
 	Date: 06/16/2019 02:35 pm
 	Comment language: en
 	Description: 
-		The goal was to develop a simpe game of "Rock, paper or scissors
+		The goal was to develop a simple game of "Rock, paper or scissors
             using a text user interface.
 		In addition to developing the notion of programming in general,
 			know the fundamentals of software programming, Software Engineering concepts,
