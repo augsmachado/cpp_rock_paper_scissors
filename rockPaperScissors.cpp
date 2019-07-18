@@ -6,7 +6,7 @@
 	Comment language: en
 	Description: 
 		The goal was to develop a simple game of "Rock, paper or scissors"
-            using a text user interface.
+            		using a text user interface.
 		In addition to developing the notion of programming in general,
 			know the fundamentals of software programming, Software Engineering concepts,
 			in addition to developing basic knowledge in C++.
