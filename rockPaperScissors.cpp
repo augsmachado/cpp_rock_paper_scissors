@@ -15,6 +15,7 @@
 # include <iostream>
 # include <cstdlib>
 # include <ctime>
+# include <stdlib.h>
 using namespace std;
 
 void menuOption ();
@@ -32,7 +33,7 @@ int main () {
     std::cin >> newMatch;
     
     while (newMatch == 'y') {
-        
+        system ("CLS");
         winner = match();
         
         // Stores who won the match
@@ -47,6 +48,7 @@ int main () {
     }
     
     // Print the final scores of matches
+    std::cout << endl;
     std::cout << "System: " << winSysMatch <<" vs. You: " << winUserMatch << std::endl;
     
     return 0;
@@ -129,10 +131,12 @@ int match () {
     
     // Prints who won the rounds in the end of match
     if (pointSys > pointUser) {
-        std::cout << "Sorry, but the system won" << std::endl;
+        std::cout << std::endl;
+		std::cout << "Sorry, but the system won" << std::endl;
         return true;
     } else {
-        std::cout << "Congratulations, you won!" << std::endl;
+    	std::cout << std::endl;
+        std::cout << "Congratulations, you won the match!" << std::endl;
         return false;
     }
 }
